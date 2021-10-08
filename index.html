@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Кузовной ремонт</title>
+    <meta name="description" content="Startup HTML template OptimizedHTML 5" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <meta property="og:image" content="img/@1x/preview.jpg" />
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="wrapper">
+        <header class="header__top">
+          <div class="logo">ЛОГОТИП</div>
+          <div class="call">
+            <a href="tel:8 800 232 32 12" class="phone">8 800 232 32 12</a>
+            <button class="call__btn" data-click="call-back">Заказать обратный звонок</button>
+          </div>
+        </header>
+
+        <h1 class="header__title">
+          Продажа кузовных запчастей <br /><span
+            >с заводской покраской без пробега по РФ</span
+          >
+        </h1>
+        <ul class="header__list-items">
+          <li class="header__item">
+            <div class="img-box">
+              <img
+              src="img/@2x/transport.png"
+              alt="car"
+              class="header__item-img"
+              />
+            </div>
+            <p class="header__item-text">Доставка по РФ от 3-х дней</p>
+          </li>
+          <li class="header__item">
+            <div class="img-box">
+              <img src="img/@2x/new.png" alt="new" class="header__item-img" />
+            </div>
+            <p class="header__item-text">Новое состояние по цене б/у</p>
+          </li>
+          <li class="header__item">
+            <div class="img-box">
+              <img src="img/@2x/list.png" alt="list" class="header__item-img" />
+            </div>
+            <p class="header__item-text">Наличие более 500 различных деталей</p>
+          </li>
+        </ul>
+
+        <div class="header__button-inner">
+          <div class="button-box">
+            <button class="button fast-btn" data-click="fast-request">Быстрая заявка</button>
+            <p class="header__button-box-text">
+              Мы перезвоним Вам для уточнения деталей.
+            </p>
+          </div>
+          <div class="button-box">
+            
+            <a href="#feedback" class="button">Подробная заявка</a>
+            <p class="header__button-box-text">
+              Заполните подробную заявку онлайн!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="wrapper">
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <img
+              src="img/@2x/benefits-list.png"
+              alt="list"
+              class="benefits__item-img"
+            />
+            <h5 class="benefits__item-title">Более 1000 наименований</h5>
+            <p class="benefits__item-text">
+              Возможность заказа и подбора более чем по 2000 наименований
+              деталей
+            </p>
+          </li>
+          <li class="benefits__item">
+            <img
+              src="img/@2x/benefits-car.png"
+              alt="car"
+              class="benefits__item-img"
+            />
+            <h5 class="benefits__item-title">Доставка в любой регион РФ</h5>
+            <p class="benefits__item-text">
+              Мы работаем с любой транспортной компанией и осуществляем доставку
+              в любой регион РФ
+            </p>
+          </li>
+          <li class="benefits__item">
+            <img
+              src="img/@2x/benefits-new.png"
+              alt="new"
+              class="benefits__item-img"
+            />
+            <h5 class="benefits__item-title">Новое состояние деталей</h5>
+            <p class="benefits__item-text">
+              Наши детали не были в употреблении и имеют состояние новых
+            </p>
+          </li>
+          <li class="benefits__item">
+            <img
+              src="img/@2x/benefits-flag.png"
+              alt="flag"
+              class="benefits__item-img"
+            />
+            <h5 class="benefits__item-title">Европейское качество</h5>
+            <p class="benefits__item-text">
+              Все наши детали привезены из Европы, что гарантирует отличное
+              качество.
+            </p>
+          </li>
+          <li class="benefits__item">
+            <img
+              src="img/@2x/benefits-letters.png"
+              alt="paper"
+              class="benefits__item-img"
+            />
+            <h5 class="benefits__item-title">Работаем по договору</h5>
+            <p class="benefits__item-text">
+              Все, что мы делаем - официально. Мы заключаем договор
+              купли-продажи и предоставляем все необходимые документыю
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="wrapper">
+        <h2 class="title feedback__title">Подробная заявка</h2>
+        <p class="feedback__title-description">
+          Заполните форму и получите максимально точную цену!
+        </p>
+        <form class="form">
+          <div class="feedback__form-box">
+            <p class="feedback__form-titles">Марка:</p>
+            <div class="select-wrapper">
+              <div class="select-arrow"></div>
+              <select class="select__options" size="1" name="brand">
+                <option selected disabled hidden>Выберите марку</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+              </select>
+            </div>
+            <p class="feedback__form-titles">Модель:</p>
+            <div class="select-wrapper">
+              <div class="select-arrow"></div>
+              <select class="select__options" size="1" name="model">
+                <option selected disabled hidden>Выберите модель</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+            <p class="feedback__form-titles">Год выпуска</p>
+            <div class="select-wrapper">
+              <div class="select-arrow"></div>
+              <select class="select__options" size="1" name="year">
+                <option selected disabled hidden>Выберите год</option>
+                <option value="1970">1970</option>
+                <option value="1971">1971</option>
+                <option value="1972">1972</option>
+                <option value="1973">1973</option>
+                <option value="1974">1974</option>
+                <option value="1975">1975</option>
+                <option value="1976">1976</option>
+                <option value="1977">1977</option>
+                <option value="1978">1978</option>
+                <option value="1979">1979</option>
+                <option value="1980">1980</option>
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+                <option value="1983">1983</option>
+                <option value="1984">1984</option>
+                <option value="1985">1985</option>
+                <option value="1986">1986</option>
+                <option value="1987">1987</option>
+                <option value="1988">1988</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+              </select>
+            </div>
+          </div>
+          <div class="feedback__form-box">
+            <p class="feedback__form-titles">Необходимые детали:</p>
+            <textarea
+              class="feedback__textarea"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Введите"
+            ></textarea>
+            <p class="feedback__form-titles">Ваше имя:</p>
+            <input placeholder="Введите" name="name" type="text" />
+          </div>
+
+          <div class="feedback__form-box">
+            <p class="feedback__form-titles">Ваш телефон:</p>
+            <input placeholder="+7 (9__) ___-__-__" name="phone" type="phone" />
+            <p class="feedback__form-titles">Ваш e-mail:</p>
+            <input placeholder="Введите" name="mail" type="e-mail" />
+            <button class="button feedback__btn send-btn">Узнать цену</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="assortment">
+      <div class="wrapper">
+        <h2 class="title">Имеем в наличии детали на авто:</h2>
+        <ul class="assortment__inner-list">
+          <li class="assortment__item">
+            <img
+              src="img/@2x/audi.png"
+              alt="audi"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/mercedes.png"
+              alt="mercedes"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img src="img/@2x/bmw.png" alt="bmw" class="assortment__item-img" />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/volkswagen.png"
+              alt="volkswagen"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/jaguar.png"
+              alt="jaguar"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/volvo.png"
+              alt="volvo"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/mini.png"
+              alt="mini"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/landrover.png"
+              alt="landrover"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/honda.png"
+              alt="honda"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/jeep.png"
+              alt="jeep"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/bentley.png"
+              alt="bentley"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/porsche.png"
+              alt="porsche"
+              class="assortment__item-img"
+            />
+          </li>
+          <li class="assortment__item">
+            <img
+              src="img/@2x/mazda.png"
+              alt="mazda"
+              class="assortment__item-img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="video">
+      <div class="wrapper">
+        <h2 class="title">Вы можете посмотреть что происходит у нас!</h2>
+        <div class="video__inner">
+          <video class="video__item" src="#"></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="wrapper">
+        <h2 class="title">Клиенты о нас</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <img src="img/@2x/user.jpg" alt="user" class="reviews__img" />
+            <div class="reviews__item-box">
+              <p class="reviews__user-name">Иван Иванович</p>
+              <h4 class="reviews__item-title">Не могу найти фару для авто</h4>
+              <p class="reviews__text">
+                “ Мотордеталь в широком ассортименте по ценам от известного
+                дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                заслуженным уважением среди покупателей, благодаря высокому
+                сервису, скидкам, отличному качеству продукции.
+              </p>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <img src="img/@2x/user.jpg" alt="user" class="reviews__img" />
+            <div class="reviews__item-box">
+              <p class="reviews__user-name">Иван Иванович</p>
+              <h4 class="reviews__item-title">Не могу найти фару для авто</h4>
+              <p class="reviews__text">
+                “ Мотордеталь в широком ассортименте по ценам от известного
+                дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                заслуженным уважением среди покупателей, благодаря высокому
+                сервису, скидкам, отличному качеству продукции.
+              </p>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <img src="img/@2x/user.jpg" alt="user" class="reviews__img" />
+            <div class="reviews__item-box">
+              <p class="reviews__user-name">Иван Иванович</p>
+              <h4 class="reviews__item-title">Не могу найти фару для авто</h4>
+              <p class="reviews__text">
+                “ Мотордеталь в широком ассортименте по ценам от известного
+                дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                заслуженным уважением среди покупателей, благодаря высокому
+                сервису, скидкам, отличному качеству продукции.
+              </p>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <img src="img/@2x/user.jpg" alt="user" class="reviews__img" />
+            <div class="reviews__item-box">
+              <p class="reviews__user-name">Иван Иванович</p>
+              <h4 class="reviews__item-title">Не могу найти фару для авто</h4>
+              <p class="reviews__text">
+                “ Мотордеталь в широком ассортименте по ценам от известного
+                дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                заслуженным уважением среди покупателей, благодаря высокому
+                сервису, скидкам, отличному качеству продукции.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="consultation">
+      <div class="wrapper">
+        <h2 class="title consultation_title">Нужна консультация?</h2>
+        <p class="consultation__title-description">
+          Заполните форму и получите максимально точную цену!
+        </p>
+        <form class="consultation__form">
+          <div class="input-box">
+            <div class="input-item">
+              <p class="consultation__form-titles">Ваше имя:</p>
+              <input type="name" class="consultation__form-input" />
+            </div>
+            <div class="input-item">
+              <p class="consultation__form-titles">Ваш телефон</p>
+              <input type="phone" class="consultation__form-input" />
+            </div>
+          </div>
+          <button class="button consultation-btn send-btn">Заказать консультацию</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="wrapper">
+        <div class="map__contacts">
+          <h3 class="map__contacts-title">Контакты</h3>
+          <p class="map__contacts-adress">г. Москва, ул. Дорожная, 8, к.1</p>
+          <a class="map__contacts-phone" href="tel:8 800 123 43 34"
+            >8 800 123 43 34</a
+          >
+          <a class="map__contacts-mail" href="mailto:info@sitename.ru"
+            >info@sitename.ru</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__inner">
+          <div class="logo">ЛОГОТИП</div>
+          <div class="call">
+            <a href="tel:8 800 232 32 12" class="phone">8 800 232 32 12</a>
+            <button href="#" class="call__btn">Заказать обратный звонок</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="call-back mfp-hide" id="call-back">
+      <span class="modal__close mfp-close"></span>
+      <h3 class="call__title">Заказ обратного звонка</h3>
+      <p class="call__text">Оставьте заявку и мы Вам перезвоним!</p>
+
+      <input class="modal__input" placeholder="Ваше имя" name="name" type="text" />
+
+      <input class="modal__input" placeholder="Ваш телефон" name="phone" type="phone" />
+
+      <input class="modal__input" placeholder="Ваша почта" name="mail" type="e-mail" />
+
+      <button class="button modal_btn send-btn">Отправить заявку</button>
+    </div>
+
+    <div class="fast-request mfp-hide" id="fast-request">
+      <span class="modal__close  mfp-close"></span>
+      <h3 class="fast-request__title">Быстрая заявка</h3>
+      <p class="fast-request__text">Оставьте заявку и мы Вам перезвоним!</p>
+      <input class="modal__input" placeholder="Ваше имя" name="name" type="text" />
+
+      <input class="modal__input" placeholder="Ваш телефон" name="phone" type="phone" />
+      <button class="button modal_btn send-btn">Отправить заявку</button>
+    </div>
+
+      <div class="thanks mfp-hide" id="thanks">
+        <span class="modal__close  mfp-close"></span>
+        <h3 class="thanks__title">Спасибо за вашу заявку!</h3>
+        <p class="thanks__text">Мы связжемся с Вами в ближайшее время!</p>
+      </div>
+
+
+
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>
